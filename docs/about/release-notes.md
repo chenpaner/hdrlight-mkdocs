@@ -604,7 +604,6 @@ feature will stop working and any unlisted CSS and JavaScript files will not be
 included in the HTML templates. In other words, they will still be copied to the
 `site-dir`, but they will not have any effect on the theme if they are not
 explicitly listed.
-
 All CSS and javaScript files in the `docs_dir` should be explicitly listed in
 the `extra_css` or `extra_javascript` config settings going forward.
 
